@@ -21,10 +21,40 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-<i class="bi bi-wifi-2"></i>
+<body data-bs-target="#main_menu" data-bs-spy="scroll">
+  
+   <!--Navbar-->
+  <nav id="main_menu" class="navbar navbar-expand-md navbar-light sticky-top py-4">
+    <div class="container">
+      <a href="#" class="navbar-brand"><img src="./fav-icons/img/logo.png" alt="smart-code logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainnav" aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainnav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <script src="../src/dist/js/bootstrap.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>

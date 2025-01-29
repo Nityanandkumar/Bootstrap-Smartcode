@@ -1,0 +1,21 @@
+$font-sm: 300;
+$font-md: 500;
+$font-lg: 900;
+$margin-md: 15px;
+
+$primary-color: #fa983a;
+$secondary-color: #fad390;
+$blackColor: #262626;
+$litebg : #f6f6f6;
+
+body {
+    font-weight: $font-sm;
+}
+p{
+    font-weight: $font-sm;
+    margin-bottom: $margin-md;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: $font-md;
+    margin-bottom: $margin-md;
+}
