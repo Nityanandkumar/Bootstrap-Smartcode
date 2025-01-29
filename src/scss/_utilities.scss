@@ -1,7 +1,9 @@
 $font-sm: 300;
 $font-md: 500;
 $font-lg: 900;
+
 $margin-md: 15px;
+$padding-lg:120px;
 
 $primary-color: #fa983a;
 $secondary-color: #fad390;
@@ -22,6 +24,13 @@ h1,h2,h3,h4,h5,h6{
 .title {
     font-size:100px;
     font-weight: $font-lg;
+}
+.title-md{
+    font-size: 60px;
+    font-weight: $font-lg;
+}
+.title-sm{
+    font-size: 35px;
 }
 .btn-hero{
     color:#fff;
