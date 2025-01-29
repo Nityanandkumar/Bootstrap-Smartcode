@@ -1,0 +1,17 @@
+#team {
+    padding-top: $padding-lg;
+    .card {
+        background: $lightbg;
+        transition: 0.5s;
+        border-radius: 10px;
+        &:hover {
+            box-shadow: 5px 5px 15px #ddd;
+        }
+    }
+    .card-body{
+        background: $padding-color;
+        height: 300px;
+        width: 100%;
+        transition: 0.5s;
+    }
+}
