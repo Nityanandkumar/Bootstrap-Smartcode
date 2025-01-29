@@ -1,0 +1,15 @@
+#service {
+    padding-top: $padding-lg;
+    i {
+        color: $primary-color;
+        font-size: 50px;
+    }
+    .card{
+        background: $lightbg;
+        transition: 0.5s;
+        border-radius: 10px;
+        &:hover {
+            box-shadow: 5px 5px 15px #ddd;
+        }
+    }
+}
